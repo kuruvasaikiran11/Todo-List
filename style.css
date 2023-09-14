@@ -76,10 +76,19 @@ h1{
 }
 
 #task-list ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 70%;
     padding: 10px;
     background-color: lightcoral;
     margin: 10px 30px;
     border: none;
+    border-radius: 10px;
+}
+
+#task-list ul li i{
+    background-color: white;
+    padding: 10px;
     border-radius: 10px;
 }
