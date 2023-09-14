@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Open+Sans&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #E6E6FA;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+    color: #00008B;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#input{
+    width: 65%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    /* color: #228B22; */
+    padding: 50px 25px;
+}
+
+#input #task{
+    width: 50%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    color: #228B22;
+    font-weight: 600;
+}
+
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background-color: #DDA0DD;
+    text-transform: uppercase;
+    margin-left: 20px;
+    color: #444444;
+    font-weight: 600;
+}
+
+.btn i{
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: #5b5959;
+    color: white;
+}
+
+#task-list{
+    width: 48%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    /* padding: 25px; */
+    border-radius: 20px;
+    /* color: #6B7B8C; */
+    font-weight: 600;
+}
+#task-list ul{
+    list-style: none;
+    text-align: left;
+}
+
+#task-list ul li{
+    width: 70%;
+    padding: 10px;
+    background-color: lightcoral;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 10px;
+}
